@@ -102,6 +102,48 @@
 			tempor incididunt ut labore et dolore magna aliqua.
 		</div>
 	</div>
+		<!-- fieldset/form -->
+	<h1>The fieldset element</h1>
+
+	<form action="process.php" metthod="POST">
+		<fieldset>
+  			<legend>Personal Details:</legend>
+  			<div>
+  				<label> First Name </label>
+  				<input type="text" name="firstName" placeholder="Enter first Name">
+  			</div><br>
+  			<div>
+  				<label> Last Name </label>
+  				<input type="text" name="lastName" placeholder="Enter last Name">
+  			</div><br>
+
+  			<div>
+  				<label> Email </label>
+  				<input type="email" name="email" placeholder="xyz@something.com">
+  			</div><br>
+  			<div>
+  				<label> Gender </label>
+ 				<!-- select, option -->
+  				<select name="gender">
+  					<option value="male" selected>Male</option>
+  					<option value="female" >Female</option>
+  					<option value="other" >Other</option>
+  				</select>
+  			</div>
+  			<br>
+  			<div>
+  				<label>Age:</label>
+  				<input type="number" name="age" value="20">
+  			</div><br>
+  			<div>
+  				<label>Birthday</label>
+  				<input type="date" name="birthday">
+  			</div>
+  			<br>
+  			<input class="submit-style" type="submit" name="submit" value="Submit">
+
+ 		</fieldset>
+	</form>
 	<hr>
 
 	<footer id="main-footer">
@@ -109,6 +151,8 @@
 		<p>copyright &copy; 2020 My Website</p>
 	</footer>
 	<hr>
+
+	
 
 </body>
 </html>
