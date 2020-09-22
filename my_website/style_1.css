@@ -120,3 +120,16 @@ span{
 	left:450px;
 
 }
+
+#backbutton{
+	margin-bottom: 20px;
+	margin-top: 85%;
+	margin-left: 20px;
+	padding: 5px;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	cursor: pointer;
+	background-color: transparent;
+	border-radius: 50px;
+}

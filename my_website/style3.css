@@ -218,7 +218,88 @@ legend{
 .submit-style{
 	background-color: #1F2558;
 	color:white;
+	cursor: pointer;
 }
+#feedheading{
+	text-align: center;
+	margin-top: 30px;
+    color: teal;
+    font-size: 2.2em;
+    letter-spacing: 0.01em;
+
+}
+.feedbox{
+    max-width: 800px;
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+    position: relative;
+}
+.scroller {
+    overflow-x: scroll;
+    display: flex;
+    scroll-snap-type: x mandatory;
+}
+.item {
+    min-width: 100%;
+    scroll-snap-align: center;
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 0 50px;
+}
+.item img{
+	margin: 15px auto -60px;
+    width: 120px;
+    height: 120px;
+    border: solid 4px #ffffff;
+    border-radius: 60px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+
+}
+
+.card {
+    background-color: rgb(237, 242, 247);
+    padding: 80px 40px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+.card p{
+	line-height: 1.6;
+}
+.card span{
+	display: block;
+    margin: 20px 5px 20px auto ;
+    color: teal;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+/*.feedbox .btn{
+	position: absolute;
+    top: 50%;
+    margin-top: 20px;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    background-color: rgba(95, 106, 117, 0.3);
+    z-index: 1;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.feedbox .btn:hover{
+	background-color: rgba(95, 106, 117, 0.5);
+    cursor: pointer;
+}
+.feedbox .btn.next {
+    right: 15px;
+}
+.feedbox .btn.prev {
+    left: 0;
+}*/
 
 
 
